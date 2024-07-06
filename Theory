@@ -1,4 +1,14 @@
 ###################
 IP ADDRESS
--> 32 bits divided into 4*8(bits) ....................0-265
-->
+-> 32 bits divided into 4*8(bits) ....................0-255
+
+-> 2 types - IPv4 and IPv6
+adress size - 32 bits, 128 bits
+adress format - Dotted decimal notation(192.34.5.32), hexadecimal notational(3ffe:f200:0234:ab00:01:23:4567:8901:abcd)
+prefix notation - 192.149.0.0/24, 3ffe:200:0234:/48
+number of addresses - (2^32)4.7 billion, (2^128)340 trillion 
+
+-> Types of IP add
+public - used in WAN
+private - only for LAN
+dynamic - 
