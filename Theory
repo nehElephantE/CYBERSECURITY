@@ -1,3 +1,16 @@
+##################
+TERMINOLOGIES
+1.MAC ADDRESS 
+Media Access Control address is a unique identification number that is assigned to each hardware in the network. It is also known as the 
+physical address and it cannot be changed
+
+2. DNS
+Domain Name System is responsible for mapping the domain name into its corresponding IP Address
+
+3. DHCP
+Dynamic Host Configuration Protocol that dynamically assigns IP address to devices in the network
+
+
 ###################
 IP ADDRESS
 -> 32 bits divided into 4*8(bits) ....................0-255
@@ -12,3 +25,78 @@ number of addresses - (2^32)4.7 billion, (2^128)340 trillion
 public - used in WAN
 private - only for LAN
 dynamic - 
+
+
+
+########################
+TYPES OF ATTACKS
+1. Malware attack - trojan, worms, spyware
+2. man-in-the-middle : client's IP address is Taken over
+3. phishing attack (social Engineering attack)
+4. password attack
+5. Advanced Persistant Threat (APT)
+6. Denial of Service (DoS)
+7. SQL Injection
+8. Active Attacks : intruder attempts to disrupt the network's normalcy, modifies the data and tries to alter the system resources
+9. Passive Attacks : does not modify anything
+
+
+
+##########################
+SOLUTIONS
+1. firewall
+2. honeybox : attracts hackers
+3. antivirus software and strong password
+
+
+##########################
+FIREWALL
+1. Can be hardware (Linksys Router) or software (Host Firewall)
+2. types : packet filtering, proxy (application-level gateway), dynamic packet filtering, stateful inspection
+
+
+###########################
+PHISHING
+1. sending malicious mail or data with malware based attachment
+2. Sending malicious links over SMS is called Smishing
+3. types : deceptive , spear (Phishing made after researching about the user's profile), whaling (researching about higher 
+profile people), pharming (creating a fake website)
+4. ARP Spoofing and DNS Cache Poisoning are also there to drive people into Fake Website
+
+
+
+
+############################
+RANSOMEWARE
+
+
+
+
+############################
+PASSWORD ATTACK
+1. types: Dictionary attack, brute force, keylogger (records all the hits on the keyboard),
+shoulder surfing (attackers observe the user's keyboard by looking over the user's shoulder),
+rainbow table (attackers use hash tables to find the password of the user)
+
+
+#############################
+HACKING
+1. Types of Hackers : 
+Black Hat Hacker - A highly skilled individual who  illegally hacks into a system is known  as a Black Hat Hacker. 
+The motive  behind such an attack is mostly for  monetary gain. These individuals are  also known as security crackers
+
+white Hat Hacker - A White Hat Hacker, also known as  an Ethical Hacker/ Security Analyst  is an individual who 
+discovers  vulnerabilities in a computer  network. Such a hacker works to  defend organizations and  governments  
+
+Gray Hat Hacker - A Gray Hat Hacker is a blend of both  black and white hat hackers. A Gray  Hat Hacker works 
+defensively and  offensively depending on the  scenario
+
+Script Kiddles - An amateur hacker who uses existing  hacking tools and available codes to  hack. 
+The motive behind it is  generally to impress people around
+
+Nation/ State sponsored Hacker - As the name suggests, such a hacker o  is sponsored by his/"hen government . 
+Here, the motive is to gain secret  information and damage information  systems of other nations
+
+Hacktivist - A Hacktivist is an individual who  propagates a political agenda by  hacking. Hacktivists are similar
+to  activists
+
