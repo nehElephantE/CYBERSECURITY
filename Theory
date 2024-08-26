@@ -10,6 +10,8 @@ Domain Name System is responsible for mapping the domain name into its correspon
 3. DHCP
 Dynamic Host Configuration Protocol that dynamically assigns IP address to devices in the network
 
+4
+Botnet refers to the network of computers that are installed with mallicious codes
 
 ###################
 IP ADDRESS
@@ -39,6 +41,9 @@ TYPES OF ATTACKS
 7. SQL Injection
 8. Active Attacks : intruder attempts to disrupt the network's normalcy, modifies the data and tries to alter the system resources
 9. Passive Attacks : does not modify anything
+10. cryptojacking
+11. Zero-Day Explot 
+12. Watering Hole Attack - attackers target the freq visited website
 
 
 
@@ -68,8 +73,16 @@ profile people), pharming (creating a fake website)
 
 ############################
 RANSOMEWARE
+Locker Ransomewear, Scarewear and crypto ransomware
 
 
+
+############################
+VPN
+
+
+############################
+PROXY
 
 
 ############################
@@ -99,4 +112,35 @@ Here, the motive is to gain secret  information and damage information  systems 
 
 Hacktivist - A Hacktivist is an individual who  propagates a political agenda by  hacking. Hacktivists are similar
 to  activists
+
+
+######################
+NETWORK SECURITY CONTROL
+Firewall, IDS(Intrusion Detection System), Honeypots
+
+
+#######################
+SECURITY TESTING
+Vulnerability Scanning, Penetration Testing (Black Box, Gray Box , White Box), Security Auditing
+
+
+#######################
+CIA
+Confidentiality, Accesibility and Integrity
+
+
+#######################
+CRYPTOGRAPHY
+converting data to non- readable format
+
+
+########################
+DDoS
+1.Distributed Denial of Service attacks floods the network with traffic in order to exhaust its bandwidth and resources
+2.Attackers infect IoT devices with malware creating a botnet and then it starts sending
+serving request. By doing so the target's resources are depleted
+3. types: Volume based Attacks (ICMP(Intenet Control Message Protocol) Flood and UDP Flood),
+Protocol Attacks : exploits firewalls and server resources (Ping Of Death, SYN FLoods, SMurf DDoS),
+Application Layer Attacks (HTTP Flood)
+4. SYN Flood ATtack : attacker sends several SYN Packets with spoofed IP addresses to the target. The target sends the response to the dummy address and then exhaust its resources by waiting for ack
 
